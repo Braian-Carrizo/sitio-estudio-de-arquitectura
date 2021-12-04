@@ -1,0 +1,89 @@
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ p {
+     font-family: 'Times New Roman', Times, serif;
+     color: whitesmoke;
+
+}
+
+
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.header {
+    
+    background-color: #142F43;
+}
+
+.section .id footer nav ol li {
+    list-style-position: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.escrito {
+    background-image: url(imagenes/22678.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    margin: 5% 10% 3% 4%; 
+    
+    padding: 50px;
+
+}
+
+p {
+    /* width: 750px; */
+    font-weight: 400;
+    font-size: 2rem; /* = 20px */
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+}
+
+.multimedia {
+    background-image: url(https://www.youtube.com/watch?v=USzDLDjh6NA);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* 
+    VIEWPORT
+
+    vh: Alto Pantalla
+    vw: Ancho Pantalla
+
+    Monitor Full HD
+    Ancho: 1920px
+    Alto: 1080px
+
+    100vw = 1920px
+    100vh = 1080px
+
+    Monitor
+    Alto: 1000px
+    100vh = 1000px
+    50vh = 500px 
+
+    100vw = ¿?
+*/
