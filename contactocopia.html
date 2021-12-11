@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
 
+    <!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,54 +11,45 @@
     <link  rel="stylersheet" href="./css/estilosA.css">
     <link rel="stylesheet" href="css\estilosA.css">
     <link rel="stylesheet" href="https://www.youtube.com/watch?v=USzDLDjh6NA">
-</head>
-
 <body>
-    
     <header class="header">
-        <div>
+        <div class="container">
+            <div class="row">
         <a href="./index.html">
         </a>
         <h1> Estudio de arquitectura </h1>
-       </div>
-        <nav class="headermenu">
-            <!-- LISTA DESORDENADA -->
-            <ul> 
-                <li> <a href="index.html"> Inicio </a> </li>  
-                <li> <a href="proyectos.html"></a>Proyectos </li> 
-                <li> <a href="nosotros.html"> Sobre nosotros </a> </li> 
-                <li> <a href="asesoria.html"></a> Asesoria </li> 
-                <li> <a href="contacto.html"> Contacto </a> </li>
-            </ul>
-        </nav>
-    </header>
-    
-
-    <section id class="primerEscrito">
-       <div>
-           <p class=" escrito ">Nos dedicamos a obras de gran envergadura, obras civiles, construimos tu futuro</p>
-       </div>
-           
-       
-       <!-- IMAGENES -->
-        <div>
-            <img src="/Contemporary-architecture.jpg" height="200px" width="900px"> 
-        </div> 
-    </section class="primerEscrito">
-
-    <section class= "multimedia" >
-    <p>Somos un estudio con mas de 10 años de trayectoria en el rubro de la construccion y lider en la provincia de cordoba</p>
-    <div> 
-        <article>
-            <!-- multimedia -->
-            <iframe width="1080" height="315" src="https://www.youtube.com/watch?v=USzDLDjh6NA"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-         </article>
-    </div>
-    </section>
-    
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"> Estudio de arquitectura</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="indexcopia.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="proyectos.html">Proyectos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="asesoria.html">Asesoria</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="nosotros.html">Sobre nosotros</a></li>
+                          <li><a class="dropdown-item" href="contactocopia.html">Contacto</a></li>
+                          
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+</header>
 <footer>
     <section id class= footer>
        <div class="footercontem">
@@ -69,18 +60,6 @@
         </form>
        </div>
 
-        <nav class="footerMenu">
-            <ul>
-                <li> <a href="index.html"> Inicio </a> </li>  
-                <li> <a href="proyectos.html"></a>Proyectos </li> 
-                <li> <a href="nosotros.html"> Sobre nosotros </a> </li> 
-                <li> <a href="asesoria.html"></a> Asesoria </li> 
-                <li> <a href="contacto.html"> Contacto </a> </li>
-                
-            </ul>
-        </nav>
-        
-        
         <!-- LISTA ORDENADA -->
         
         <div class="footerdatos">
@@ -115,7 +94,11 @@
 </div>
 
 </footer>
+<h3>MAPA</h3>
+<div class="footermedia">
+   <!--imagen-->
+   <img src="imagenes/1226-cordoba-jpg-2d803095a19ccc3b7f9a5b4a0b7d93a8_thumb_800_725x0.jpg" height="500px" width="500px">
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-
 </html>
